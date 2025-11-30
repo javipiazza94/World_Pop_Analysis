@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*gitignore
 
 # Environments
 .env
@@ -11,6 +12,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+gitignore
 
 # Streamlit
 .streamlit/
