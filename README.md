@@ -15,8 +15,8 @@ Este proyecto es una herramienta interactiva en Python para simular y visualizar
 *   `app.py`: Aplicación principal (Frontend en Streamlit).
 *   `simulation.py`: Motor lógico de la simulación (Clase `PopulationSimulator`).
 *   `data_loader.py`: Script para cargar y limpiar los datos.
-*   `population_2025.csv`: Dataset con datos de población, tasas de natalidad/mortalidad y edad media.
-*   `requirements.txt`: Lista de dependencias necesarias.
+*   `data/population_2025.csv`: Dataset con datos de población, tasas de natalidad/mortalidad y edad media.
+*   `utils/requirements.txt`: Lista de dependencias necesarias.
 
 ## 🚀 Instalación y Ejecución
 
@@ -27,7 +27,7 @@ Asegúrate de tener Python instalado. Se recomienda usar un entorno virtual.
 Ejecuta el siguiente comando en tu terminal para instalar las librerías necesarias:
 
 ```bash
-pip install -r requirements.txt
+pip install -r utils/requirements.txt
 ```
 
 ### 3. Ejecutar la Aplicación

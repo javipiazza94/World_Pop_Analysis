@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-def load_population_data(filepath="population_2025.csv"):
+def load_population_data(filepath="data/population_2025.csv"):
     """
     Loads population data from a CSV file.
     
